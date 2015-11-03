@@ -22,8 +22,8 @@ class TroubleSignInViewController: UIViewController {
     }
     
     @IBAction func cancelButton(sender: AnyObject) {
-    navigationController!.popViewControllerAnimated(true
-        )}
+dismissViewControllerAnimated(true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

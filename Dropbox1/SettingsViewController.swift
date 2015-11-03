@@ -27,7 +27,8 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func signOutButton(sender: AnyObject) {
-    navigationController!.popViewControllerAnimated(true)}
+        
+    }
 
     /*
     // MARK: - Navigation

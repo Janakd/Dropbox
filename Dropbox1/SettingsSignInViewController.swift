@@ -25,9 +25,7 @@ scrollView.contentSize = imageView.image!.size
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func signOut(sender: AnyObject) {
-    navigationController?.popViewControllerAnimated(true
-        )}
+   
 
     /*
     // MARK: - Navigation

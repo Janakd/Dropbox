@@ -106,7 +106,6 @@
         <!--View Controller-->
         <scene sceneID="dhm-dk-0D9">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O4w-hf-gNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="BhQ-Hk-XQt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jC8-7T-UCO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -139,6 +138,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ot8-5U-wsP"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O4w-hf-gNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1894" y="348"/>
         </scene>
@@ -177,19 +177,20 @@
                                 <rect key="frame" x="0.0" y="63" width="320" height="772"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="2FR-eF-QB0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uny-jv-dSC">
                                         <rect key="frame" x="0.0" y="692" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <connections>
                                             <action selector="signOutButton:" destination="1v4-NY-t9c" eventType="touchUpInside" id="i1I-kn-cxK"/>
+                                            <segue destination="zvy-zD-vym" kind="push" id="YqY-zi-pgW"/>
                                         </connections>
                                     </button>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="2FR-eF-QB0">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                    </imageView>
                                 </subviews>
                                 <animations/>
                             </scrollView>
@@ -207,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZCT-r2-tHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7058" y="2034"/>
+            <point key="canvasLocation" x="7386" y="2027"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZsA-HN-63q">
@@ -281,7 +282,7 @@
             <objects>
                 <viewController id="jQX-nE-Krv" customClass="CreateAccountViewController" customModule="Dropbox1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FS3-Uq-MJT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="create_account" id="OjX-PQ-kOm">
@@ -481,10 +482,9 @@
         <!--View Controller-->
         <scene sceneID="eRP-ie-67m">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="anm-h1-JVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="zvy-zD-vym" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KiW-sd-XCS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logged_out" id="yMs-d1-ihl">
@@ -514,6 +514,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ntm-hN-VHv"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="anm-h1-JVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1894" y="1093"/>
         </scene>
@@ -522,7 +523,7 @@
             <objects>
                 <viewController id="81O-Vn-12f" customClass="SignInViewController" customModule="Dropbox1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FE1-Zm-fft">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign_in1" id="uvL-eS-eXa">
@@ -562,7 +563,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sHv-NY-dAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2332" y="1093"/>
+            <point key="canvasLocation" x="2324" y="1307"/>
         </scene>
         <!--Trouble Sign In View Controller-->
         <scene sceneID="fLY-Lc-rDU">
@@ -593,7 +594,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5aA-g8-jzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2332" y="1817"/>
+            <point key="canvasLocation" x="2308" y="2329"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XAc-08-N19">
@@ -753,7 +754,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <connections>
-                                            <action selector="signOut:" destination="EkR-N8-Jg1" eventType="touchUpInside" id="Kc6-P1-w2v"/>
+                                            <segue destination="zvy-zD-vym" kind="push" id="lrk-Vd-Gdd"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -773,7 +774,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ti-Mo-pmj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4483" y="2931"/>
+            <point key="canvasLocation" x="4463" y="2995"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="osD-zy-Cr4">
@@ -893,7 +894,6 @@
                                 <animations/>
                                 <connections>
                                     <action selector="doneButton:" destination="yT2-8v-6YT" eventType="touchUpInside" id="D3B-z3-6pe"/>
-                                    <segue destination="6rb-tR-56u" kind="modal" id="rJI-hP-T0Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1054,8 +1054,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="miY-Kt-31t"/>
         <segue reference="WGR-1J-faU"/>
-        <segue reference="rJI-hP-T0Z"/>
+        <segue reference="lrk-Vd-Gdd"/>
+        <segue reference="miY-Kt-31t"/>
     </inferredMetricsTieBreakers>
 </document>

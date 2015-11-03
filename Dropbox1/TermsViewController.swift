@@ -22,9 +22,11 @@ class TermsViewController: UIViewController {
     }
     
     @IBAction func doneButton(sender: AnyObject) {
-        navigationController!.popViewControllerAnimated(true)
+        dismissViewControllerAnimated(true, completion: nil)
+        
     }
     }
+
 
 
     /*
